@@ -5,25 +5,25 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Satellite Data Intern",
+    cardImage: "assets/images/experience-page/KARI.jpeg",
+    place: "korea aerospace research institute",
+    time: "(July, 2024 - August, 2024)",
+    desp: "<li> • Supportedsatellite data transmission and preprocessing (CADU format) Assisted system diagnostics alongside engineering teams.</li>",
   },
-  {
+  /*{
     title: "Student Developer",
     cardImage: "assets/images/experience-page/gsoc.png",
     place: "Google Summer Of Code",
     time: "(Mar - Aug, 2019)",
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
+  }, */
   {
     title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    cardImage: "assets/images/experience-page/S_lab.png",
+    place: "Surface Design and Manufacturing lab",
+    time: "(AUG, 2023 - SEP, 2023)",
+    desp: "<li>Biomimetic wall-shaped hierarchic adhesive microstructures :: the effect of interference of triangular pyramid structure.</li>",
   },
 ];
 
@@ -55,6 +55,7 @@ const showCards2 = () => {
   );
   experiencecards.innerHTML = output;
 };
+// Card show 
 document.addEventListener("DOMContentLoaded", showCards2);
 
 // Volunteership Cards
@@ -111,9 +112,9 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
+    title: "Gyeongsang National University Creative Aircraft Competition",
+    subtitle: "Participant",
+    image: "assets/images/experience-page/main_wing.jpg",
     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
     href: "https://uplift.girlscript.tech/",
   },
@@ -237,4 +238,5 @@ const showCards3 = () => {
   );
   hackathonsection.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards3);
+//
+// document.addEventListener("DOMContentLoaded", showCards3);

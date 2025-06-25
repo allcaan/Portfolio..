@@ -467,6 +467,10 @@ ul ol {
   color: var(--head-col);
 }
 
+.volunteership{
+  display: none;
+}
+
 /*Hackathon Section Starts*/
 
 .blog-slider {
@@ -686,6 +690,10 @@ a:link {
     margin-bottom: 12rem !important;
   }
 }
+.hackathon-section{
+  display: none;
+}
+
 /*Hackathon Section Ends*/
 /*
 ----------------------------
@@ -705,3 +713,4 @@ a:link {
     transform: skew(-12deg) rotate(-6deg);
   }
 }
+
